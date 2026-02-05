@@ -10,10 +10,6 @@ A simple web application that calculates the day of the week a user was born and
 - [Author](#author)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Behavior-Driven Development (BDD)](#behavior-driven-development-bdd)
-- [Live Demo](#live-demo)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
