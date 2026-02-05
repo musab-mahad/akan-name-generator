@@ -35,3 +35,22 @@ button {
 label {
   font-weight: bold;
 }
+
+.date-row {
+  display: flex;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.date-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.date-field input,
+.date-field select {
+  padding: 0.4em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
