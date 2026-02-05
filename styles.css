@@ -6,3 +6,21 @@ body {
   background-color: #f2f2f2;
   border-radius: 8px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0.5em 0;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #0a7099;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
