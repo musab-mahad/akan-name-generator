@@ -23,6 +23,16 @@ document
       return;
     }
 
+    if (!day || !month || !year || !gender) {
+      alert("Please fill all fields and select a gender.");
+      return;
+    }
+
+    if (day < 1 || day > 31 || month < 1 || month > 12) {
+      alert("Please enter a valid day (1-31) and month (1-12).");
+      return;
+    }
+
     // Create a Date object to calculate the day of the week
     const date = new Date(year, month, day);
     const dayOfWeek = date.getDay(); // 0 = Sunday, 6 = Saturday
