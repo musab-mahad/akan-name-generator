@@ -25,3 +25,9 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#result {
+  margin-top: 2em;
+  font-size: 1.2em;
+  color: #333;
+}
